@@ -1,0 +1,13 @@
+Chase Molenaar
+
+INTRO
+After removing extraneous and categorical variables, assigning sex to booleans, and splitting our data, we were ready to train our model. 
+The predictive variables used were: ['Pclass','Sex','Age','SibSp','Parch','Fare']
+
+MODEL & RESULTS
+We used Random Forest, and achieved an accuracy rate of 0.84.
+This was 6% above baseline- predicting only survival for women (accuracy 78%).
+
+WHICH MODEL IS BEST
+I didn't run any models to compare with this one, but with similar problems Random Forest seems to have an edge.
+As you must know, the maximum of a set containing one element is *that* element. So, arguably, it was the best model I tried.
